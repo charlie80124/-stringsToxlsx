@@ -23,8 +23,8 @@ def removeSpecialCharacter(text, special):
     return result
 
 
-path = '/Users/h0057/Desktop/en.strings'
-xlsxPath = '/Users/h0057/Desktop/VT-iOS.xlsx'
+path = '.strings'
+xlsxPath = '.xlsx'
 
 file = open(path, 'r')
 excel = xlsxwriter.Workbook(xlsxPath)
